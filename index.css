@@ -10,19 +10,30 @@ body {
 }
 
 .links {
-  padding: 10px 40px;
+  padding: 10px 20px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   font-size: 20px;
 }
 
 a {
-  padding: 10px 0px;
-  color: aqua;
+  padding: 10px 20px;
+  margin: 0 10px;
+  color: #000;
+  background-color: aliceblue;
+  border: 3px solid aqua;
+  display: block;
+  width: fit-content;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+
+a:hover {
+  transform: scale(1.1);
 }
 
 a::before {
   content: "» ";
-  
+
 }
 
