@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #113;
+  color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px 5vw;
+}
+
+.links {
+  padding: 10px 40px;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+a {
+  padding: 10px 0px;
+  color: aqua;
+}
+
+a::before {
+  content: "» ";
+  
+}
+
